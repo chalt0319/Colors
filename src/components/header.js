@@ -6,11 +6,13 @@ class Header extends Component {
     return (
       <div className="header">
         <Color color="red"/>
-        <Color color="blue"/>
-        <Color color="green"/>
-        <Color color="yellow"/>
         <Color color="orange"/>
+        <Color color="yellow"/>
+        <Color color="green"/>
+        <Color color="blue"/>
         <Color color="purple"/>
+        <Color color="white"/>
+        <Color color="black"/>
       </div>
     );
   }
