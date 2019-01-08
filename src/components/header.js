@@ -15,6 +15,7 @@ class Header extends Component {
         <Color color="purple"/>
         <Color color="white"/>
         <Color color="black"/>
+        <div className="selected">Selected Color:</div>
         <SelectedColor />
       </div>
     );

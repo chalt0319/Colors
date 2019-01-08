@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { createStore } from 'redux';
+import colorReducer from './reducer/colorReducer'
 
 const store = createStore(colorReducer);
 

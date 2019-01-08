@@ -13,7 +13,7 @@ class SelectedColor extends Component {
 
 const mapStateToProps = state => {
   return {
-    color: state.color,
+    color: state,
   }
 }
 

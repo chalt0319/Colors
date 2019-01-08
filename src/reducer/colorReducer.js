@@ -1,4 +1,4 @@
-export default function colorReducer(state = "", action) {
+export default function colorReducer(state = "red", action) {
   switch (action.type) {
     case 'CHANGE_COLOR':
 
