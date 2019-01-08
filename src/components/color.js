@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-
-// const Color = (props) => {
-//   return (
-//     <div className={`${props.color} square`} onClick={this.handleClick}>
-//     </div>
-//  )
-// }
-
 class Color extends Component {
 
   handleClick = () => {
