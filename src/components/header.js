@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Color from './color.js'
+import SelectedColor from './selected_color.js'
+
 
 class Header extends Component {
   render() {
@@ -13,6 +15,7 @@ class Header extends Component {
         <Color color="purple"/>
         <Color color="white"/>
         <Color color="black"/>
+        <SelectedColor />
       </div>
     );
   }
