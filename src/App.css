@@ -66,17 +66,29 @@
 .red {
   background-color: red;
 }
+.pink {
+  background-color: pink;
+}
 .blue {
   background-color: blue;
 }
+.aqua {
+  background-color: aqua;
+}
 .green {
   background-color: green;
+}
+.lime {
+  background-color: lime;
 }
 .yellow {
   background-color: yellow;
 }
 .purple {
   background-color: purple;
+}
+.violet {
+  background-color: violet;
 }
 .orange {
   background-color: orange;

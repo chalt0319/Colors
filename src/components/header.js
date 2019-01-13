@@ -7,11 +7,15 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
+        <Color color="pink"/>
         <Color color="red"/>
         <Color color="orange"/>
         <Color color="yellow"/>
+        <Color color="lime"/>
         <Color color="green"/>
+        <Color color="aqua"/>
         <Color color="blue"/>
+        <Color color="violet"/>
         <Color color="purple"/>
         <Color color="white"/>
         <Color color="black"/>
