@@ -19,6 +19,9 @@ class Grid extends Component {
       <GridBox/>
       <GridBox/>
       <GridBox/>
+      <GridBox/>
+      <GridBox/>
+      <GridBox/>
       </div>
     );
   }

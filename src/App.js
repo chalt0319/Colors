@@ -15,6 +15,10 @@ class App extends Component {
         <Grid />
         <Grid />
         <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
+        <Grid />
       </div>
     );
   }
