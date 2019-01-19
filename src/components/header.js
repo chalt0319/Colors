@@ -5,7 +5,7 @@ import SelectedColor from './selected_color.js'
 
 class Header extends Component {
 
-  timer = () => {
+  timer = () => {  // this will add a timer to the page that resets when you refresh
     let num = 1
     setInterval(frame, 1000)
     function frame(){
@@ -16,7 +16,6 @@ class Header extends Component {
 
   render() {
     return (  // this will make up the colors you can select in the header
-
       <div className="header">
         {this.timer()}
         <div id="time_elapsed">Time Elapsed: </div>

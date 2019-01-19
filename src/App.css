@@ -47,13 +47,11 @@
 }
 
 #timer {
-  /* display: inline-block; */
   position: fixed;
   left: 115px;
 }
 
 #time_elapsed {
-  /* display: inline-block; */
   position: fixed;
   left: 5px;
 }
