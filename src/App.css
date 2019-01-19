@@ -70,10 +70,17 @@
   margin-left: 10px;
   position: relative;
   top: -25px;
+  color: black;
+}
+
+#selected_color {
+  position: fixed;
+  right: 5px;
+  top: 5px;
 }
 
 .pink {
-  background-color: pink;
+  background-color: #ff99a8;
 }
 .red {
   background-color: red;
@@ -97,7 +104,7 @@
   background-color: blue;
 }
 .violet {
-  background-color: violet;
+  background-color: #ea62ea;
 }
 .purple {
   background-color: purple;
@@ -107,4 +114,7 @@
 }
 .black {
   background-color: black;
+}
+.brown {
+  background-color: #8B4513;
 }

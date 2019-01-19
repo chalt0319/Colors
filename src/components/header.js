@@ -30,10 +30,15 @@ class Header extends Component {
         <Color color="blue"/>
         <Color color="violet"/>
         <Color color="purple"/>
+        <div className="white_space"></div>
         <Color color="white"/>
         <Color color="black"/>
-        <div className="selected">Selected Color:</div>
-        <SelectedColor />
+        <Color color="brown"/>
+        <div id="selected_color">
+          <div className="selected">Selected Color:</div>
+          <SelectedColor />
+        </div>
+
       </div>
     );
   }
