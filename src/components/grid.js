@@ -6,7 +6,7 @@ import GridBox from './gridBox.js'
 
 class Grid extends Component {
 
-  render() {
+  render() {  // this will make up the columns 
     return (
       <div >
       <GridBox/>

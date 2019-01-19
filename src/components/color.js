@@ -12,10 +12,9 @@ class Color extends Component {
     // this will pull in the color of the state, so that when it's changed, it will update
     return (
       <div className={`${this.props.color} square`} onClick={this.handleClick}>
-
       </div>
     );
   }
 }
-
+// this will connect to the Redux store so we can update it
 export default connect()(Color)
