@@ -4,9 +4,23 @@ import SelectedColor from './selected_color.js'
 
 
 class Header extends Component {
+
+  timer = () => {
+    let num = 1
+    setInterval(frame, 1000)
+    function frame(){
+      document.getElementById('timer').innerHTML = num
+      num++
+    }
+  }
+
   render() {
     return (  // this will make up the colors you can select in the header
+
       <div className="header">
+        {this.timer()}
+        <div id="time_elapsed">Time Elapsed: </div>
+        <div id="timer">0</div>
         <Color color="pink"/>
         <Color color="red"/>
         <Color color="orange"/>
