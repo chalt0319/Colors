@@ -57,41 +57,40 @@
 .selected {
   height: 20px;
   display: inline-block;
-  /* padding: 10px; */
   margin-left: 10px;
   position: relative;
   top: -25px;
 }
 
-.red {
-  background-color: red;
-}
 .pink {
   background-color: pink;
 }
-.blue {
-  background-color: blue;
+.red {
+  background-color: red;
 }
-.aqua {
-  background-color: aqua;
-}
-.green {
-  background-color: green;
-}
-.lime {
-  background-color: lime;
+.orange {
+  background-color: orange;
 }
 .yellow {
   background-color: yellow;
 }
-.purple {
-  background-color: purple;
+.lime {
+  background-color: lime;
+}
+.green {
+  background-color: green;
+}
+.aqua {
+  background-color: aqua;
+}
+.blue {
+  background-color: blue;
 }
 .violet {
   background-color: violet;
 }
-.orange {
-  background-color: orange;
+.purple {
+  background-color: purple;
 }
 .white {
   background-color: white;

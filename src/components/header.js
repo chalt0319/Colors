@@ -5,7 +5,7 @@ import SelectedColor from './selected_color.js'
 
 class Header extends Component {
   render() {
-    return (
+    return (  // this will make up the colors you can select in the header
       <div className="header">
         <Color color="pink"/>
         <Color color="red"/>
